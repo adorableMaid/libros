@@ -1,0 +1,62 @@
+NOTE: Check over FAQ section from /learnprogramming subreddit. Truly interesting and helpful. Some points of here are taken from there.
+
+1. How can I improve my skill to convert tasks/problems into programs?(Algorithmic thinking)
+Make step-by-step list of daily task and the next time You do one of those specific things, follow your step-by-step recipe.
+Better explained: Analyze from memory your daily tasks, write down step by step how you perform these tasks and the next time You do some of them, make them following your recipe.
+
+2. OOP Principles.
+
+	2.1. Polymorphism. Entities can have more than one form. Methods can have multiple outputs. Example:
+	Method speak() from Class Animal -extends-> Class Dog[speak(){"woof"}], Class Cat[speak(){"meow"}], Class Cow[speak(){"moo"}]. Something like that...
+
+	2.2. Inheritance. Entities can inherit (extends) properties or methods from other entities. Example:
+	Class Animal --> Class Dog : Animal --> Class Corgi : Dog (Dog has attributes from Animal. Corgi has attributes from Dog and Animal).
+
+	2.3. Abstraction. Hides complex details to reduce complexity. Look at methods as if they were black boxes. 
+	Input -> print("Hello World!) -> Output. We don't know what happens inside 'print()' and we don't need to know, you only need to know the input and output.
+
+	2.4. Encapsulation. Refers to enclosing things of interest (attributes and methods) into one entity. Example:
+	Class Human has Attributes(data) such as a name, age, gender and Methods like walk(), sleep(), talk()... We just packed a human being into an object.
+	Also mention, this is accompanied by the concept of information hiding to prevent external objects interact on ways our program don't expect.
+
+3. SOLID Principles.
+TO-DO
+
+4. Object Literal Technique.
+TO-DO
+
+5. Guard Clauses Technique.
+TO-DO
+
+6. Recursion.
+TO-DO TO-DO TO-DO TO-DO TO-DO
+
+7. LINQ.
+TO-DO
+
+8. Lazy<T> Class. Key words: Instantiate an object if/when it is used.
+You typically use it when you want to instantiate something the first time its actually used. 
+This delays the cost of creating it till if/when it's needed instead of always incurring the cost.
+Usually this is preferable when the object may or may not be used and the cost of constructing it is non-trivial.
+
+9. ?? and ??= operators.
+TO-DO
+
+X. Intermediate level projects.
+Up ahead as I finish the projects, I will write them down here the ones I recommend the most. For now I will just let writen down some links with lists. Bona appetit.
+
+	Build your own X: https://github.com/codecrafters-io/build-your-own-x
+
+	C# Projects: https://github.com/practical-tutorials/project-based-learning#c
+
+	Projects based on levels: https://github.com/florinpop17/app-ideas
+
+	Programming Projects for Advanced Beginners: https://robertheaton.com/2018/12/08/programming-projects-for-advanced-beginners/
+
+X. Jon Skeet's C# links
+	
+	Jon Skeet's C# and .NET articles and links: https://jonskeet.uk/csharp/
+
+	C# in Depth: https://csharpindepth.com
+	
+	Jon Skeet's coding blog: https://codeblog.jonskeet.uk
